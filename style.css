@@ -1,0 +1,35 @@
+*,*::after,*::before{
+    padding: 0PX;
+    margin: 0PX;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right,rgb(51, 76, 218),#7847eb);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.out{
+    position: relative;
+    top: 60px;
+    font-size: 29px;
+    text-align: center;
+    
+}
+
+.bg{
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+}
